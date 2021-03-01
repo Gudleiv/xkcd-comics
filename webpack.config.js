@@ -13,6 +13,14 @@ module.exports = {
       hash: true
     })
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader']
+      }
+    ]
+  },
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
     publicPath: '/',
