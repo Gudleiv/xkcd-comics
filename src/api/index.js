@@ -9,7 +9,7 @@ const getComics = async (num) => {
   if (response.status === 404) return {
     num: 404,
     img: comics404,
-    titile: '404 - Comics not found'
+    title: '404 - Comics not found'
   }
   const data = await response.json()
   return data
