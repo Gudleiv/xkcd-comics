@@ -1,0 +1,32 @@
+{
+  "name": "xkcd-comics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "build": "webpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gudleiv/xkcd-comics.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Gleb Gudleiv <glebgudleiv@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gudleiv/xkcd-comics/issues"
+  },
+  "homepage": "https://github.com/Gudleiv/xkcd-comics#readme",
+  "dependencies": {
+    "webpack": "^5.24.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
