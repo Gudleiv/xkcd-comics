@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cors": "node './server'",
     "serve": "webpack serve --mode=development",
     "build": "webpack build --mode=production"
   },

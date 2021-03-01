@@ -14,7 +14,10 @@ export default class Comics {
   }
 
   init() {
-    
+    this.template = `
+      <div>${this.title}</div>
+      <img src="${this.imgURL}">
+    `
+    this.toHTML()
   }
-
 }
